@@ -260,13 +260,14 @@
   
   .sidebar {
       background: #FBB34B;
+      color: rgba(13, 11, 27, 0.85);
   }
   .sidebar__item {
       padding: 50px 35px;
   }
   
   .home-about {
-      background: rgba(13, 11, 27, 0.85) !important;
+      background-color: rgba(13, 11, 27, 0.85) !important;
       color: #FFFFFF;
   }
   .home-about__title {
