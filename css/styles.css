@@ -267,7 +267,7 @@
   }
   
   .home-about {
-      background-color: rgba(13, 11, 27, 0.85) !important;
+      background-color: #0C0A1A;
       color: #FFFFFF;
   }
   .home-about__title {
@@ -393,6 +393,13 @@
       .home-competence__help {
           background-size: cover;
       }
+      .header__lang__select-lang {
+        border-bottom: 1px solid #000000;
+        color: #000000;
+      }
+        .header__lang__select-lang::after {
+            border-top: 8px solid #000000;
+        }
   }
 
   @media (max-width: 991px) {
@@ -531,6 +538,7 @@
           width: calc(100% - 400px); 
           margin-right: 40px;
       }
+      
       /*.home-competence__item__img8 {
         transform: translateY(-16%);
       }*/
